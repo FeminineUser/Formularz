@@ -1,0 +1,84 @@
+form{
+
+    height: 500px;
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.user-name{
+ 
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.password{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-weight: bold;
+}
+input{
+   height: 31px; 
+   width: 30%;
+   border-radius: 8px;
+   font-weight: bold;
+    font-style: normal;
+    font-weight: bold;
+    background-color:rgb(202, 199, 199);
+    border: 0;
+}
+
+.submit{
+    border: 0;;
+   width: 120px;
+   height: 60px;
+    border-radius: 47%;
+    background-color: rgb(155, 113, 194);
+}
+.button .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    color: yellow;
+}
